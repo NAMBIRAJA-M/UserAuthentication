@@ -1,0 +1,20 @@
+<%- include('partials/header') %>
+
+  <div class="container1">
+    <p style="font-size: 40px;font-weight: 500;">Login</p>
+    <!-- Makes POST request to /register route -->
+    <form action="/login" method="POST">
+      <div class="email-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" name="username">
+      </div>
+      <div class="password-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" name="password">
+      </div>
+      <button type="submit" class="btn btn-color-2">login</button>
+    </form>
+  </div>
+
+
+  <%- include('partials/footer') %>
