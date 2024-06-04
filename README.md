@@ -9,7 +9,7 @@ Installation
 To get started with the project, follow these steps:
 
 Clone the repository:
-git clone https://github.com/NAMBIRAJA-M/your-repo-name.git
+git clone https://github.com/NAMBIRAJA-M/UserAuthentication.git
 
 Install dependencies:
 npm install
